@@ -1,0 +1,144 @@
+:root {
+    --elixir-primary: #2A3855;
+    --elixir-warning: #FDD428;
+    --elixir-body-color: #6a6a6a;
+    --elixir-white :#fff;
+
+}
+
+.e-primary {
+    color: var(--elixir-primary);
+}
+.e-warning {
+    color: var(--elixir-warning);
+}
+.e-body {
+    color: var(--elixir-body-color);
+}
+
+
+a , li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.notification {
+    background-color: var(--elixir-primary);
+    font-size: 14px;
+}
+.notification i {
+    color: var(--elixir-warning);
+}
+.nav-btn {
+    border: 1px solid var(--elixir-primary);
+    color: var(--elixir-primary);
+    padding: 5px 22px;
+}
+.navbar-nav li a {
+    font-weight: 600;
+    color: var(--elixir-primary);
+    margin-left: 12px;
+}
+#Header {
+    background-image: url(../images/header-5.jpg);
+    height: 100vh;
+
+
+}
+/* .bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+} */
+
+.left h1 {
+
+    font-size: 64px;
+    color: var(--elixir-primary);
+    font-weight: 700;
+
+}
+.left p {
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--elixir-primary);
+}
+.hero-btns {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+.hero-btns a {
+
+    padding: 12px 35px;
+    border: 1px solid var(--elixir-warning);
+    border: none;
+    border-radius: 6px;
+
+}
+.hero-btns .read {
+
+    background-color: var(--elixir-primary);
+    color: white;
+
+}
+
+.hero-btns .us {
+    background-color: var(--elixir-warning);
+    color: var(--elixir-primary);
+}
+
+
+
+
+
+#welcome {
+    padding: 100px 0;
+}
+
+.line {
+    background-color: var(--elixir-primary);
+    border: 2px;
+    width: 80px;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.ring-icon {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: #fafafa;
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1 ;
+    font-size: 2.368593037rem;
+    color: #2a3855;
+}
+
+
+#about {
+    padding: 100px 0;
+}
+
+.about-video {
+  background: url("../images/video-screenshot-2.jpg") center/cover no-repeat;
+  aspect-ratio: 16 / 9;   /* keeps video-like ratio */
+  width: 100%;
+  border-radius: 1rem;
+}
+
