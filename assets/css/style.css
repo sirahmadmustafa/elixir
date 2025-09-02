@@ -168,3 +168,17 @@ a , li {
     font-weight: 600;
     font-size: 18px;
 }
+#choose {
+    padding: 100px 0;
+}
+.choose-us p {
+
+    margin-bottom: 50px;
+
+}
+#contact-us {
+
+    background-color: var(--elixir-primary);
+    padding: 4rem 0;
+
+}
