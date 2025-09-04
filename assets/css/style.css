@@ -2,25 +2,29 @@
     --elixir-primary: #2A3855;
     --elixir-warning: #FDD428;
     --elixir-body-color: #6a6a6a;
-    --elixir-white :#fff;
+    --elixir-white: #fff;
 
 }
 
 .e-primary {
     color: var(--elixir-primary);
 }
+
 .e-warning {
     color: var(--elixir-warning);
 }
+
 .e-body {
     color: var(--elixir-body-color);
 }
 
 
-a , li {
+a,
+li {
     text-decoration: none;
     list-style: none;
 }
+
 .mt-7 {
     margin-top: 5rem;
 }
@@ -29,25 +33,30 @@ a , li {
     background-color: var(--elixir-primary);
     font-size: 14px;
 }
+
 .notification i {
     color: var(--elixir-warning);
 }
+
 .nav-btn {
     border: 1px solid var(--elixir-primary);
     color: var(--elixir-primary);
     padding: 5px 22px;
 }
+
 .navbar-nav li a {
     font-weight: 600;
     color: var(--elixir-primary);
     margin-left: 12px;
 }
+
 #Header {
     background-image: url(../images/header-5.jpg);
     height: 100vh;
 
 
 }
+
 /* .bg-holder {
     position: absolute;
     width: 100%;
@@ -69,11 +78,13 @@ a , li {
     font-weight: 700;
 
 }
+
 .left p {
     font-size: 26px;
     font-weight: 400;
     color: var(--elixir-primary);
 }
+
 .hero-btns {
 
     display: flex;
@@ -82,6 +93,7 @@ a , li {
     flex-wrap: wrap;
 
 }
+
 .hero-btns a {
 
     padding: 12px 35px;
@@ -90,6 +102,7 @@ a , li {
     border-radius: 6px;
 
 }
+
 .hero-btns .read {
 
     background-color: var(--elixir-primary);
@@ -128,7 +141,7 @@ a , li {
     height: 6.25rem;
     width: 6.25rem;
     border-radius: 50%;
-    border: 1px solid #e1e1e1 ;
+    border: 1px solid #e1e1e1;
     font-size: 2.368593037rem;
     color: #2a3855;
 }
@@ -139,27 +152,31 @@ a , li {
 }
 
 .about-video {
-  background: url("../images/video-screenshot-2.jpg") center/cover no-repeat;
-  aspect-ratio: 16 / 9;   /* keeps video-like ratio */
-  width: 100%;
-  border-radius: 1rem;
+    background: url("../images/video-screenshot-2.jpg") center/cover no-repeat;
+    aspect-ratio: 16 / 9;
+    /* keeps video-like ratio */
+    width: 100%;
+    border-radius: 1rem;
 }
 
-#Services{
+#Services {
 
     padding: 100px;
     background-color: #fafafa;
 
 }
+
 .service-content h2 {
     color: var(--elixir-primary);
 }
+
 .service-content p {
 
     color: var(--elixir-body-color);
     font-size: 20px;
 
 }
+
 .service-content a {
     display: flex;
     align-items: center;
@@ -168,17 +185,29 @@ a , li {
     font-weight: 600;
     font-size: 18px;
 }
+
 #choose {
     padding: 100px 0;
 }
+
 .choose-us p {
 
     margin-bottom: 50px;
 
 }
+
 #contact-us {
 
     background-color: var(--elixir-primary);
     padding: 4rem 0;
 
+}
+
+#counter {
+    /* background-color: var(--elixir-primary); */
+
+    background-image: url(../images/background-15.jpg) ;
+    /* keeps video-like ratio */
+
+    padding: 120px;
 }
