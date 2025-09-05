@@ -204,10 +204,31 @@ li {
 }
 
 #counter {
-    /* background-color: var(--elixir-primary); */
-
+  
     background-image: url(../images/background-15.jpg) ;
-    /* keeps video-like ratio */
-
     padding: 120px;
+}
+
+.counter-hero i{
+
+    font-size: 50px;
+    color: var(--elixir-warning);
+
+}
+
+.counter-hero h2{
+
+    font-size: 60px;
+    color: var(--elixir-warning);
+
+}
+
+#news a {
+    display: flex;
+    align-items: center;
+    color: #2a3855;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
 }
