@@ -232,3 +232,14 @@ li {
     font-size: 18px;
     margin-top: 10px;
 }
+    .lead {
+        font-size: 1.333rem;
+        color: var(--elixir-body-color);
+        font-weight: 300;
+    }
+
+.clients-logo {
+
+    background-color: #f2f2f2;
+
+}
