@@ -17,6 +17,9 @@
 .e-body {
     color: var(--elixir-body-color);
 }
+.e-bg-primary {
+    background-color: var(--elixir-primary);
+}
 
 
 a,
@@ -57,7 +60,7 @@ li {
 
 }
 
-/* .bg-holder {
+.bg-holder {
     position: absolute;
     width: 100%;
     min-height: 100%;
@@ -69,7 +72,7 @@ li {
     backface-visibility: hidden;
     background-repeat: no-repeat;
     z-index: 0;
-} */
+}
 
 .left h1 {
 
@@ -204,19 +207,21 @@ li {
 }
 
 #counter {
-  
-    background-image: url(../images/background-15.jpg) ;
+
+    background-image: url(../images/background-15.jpg);
     padding: 120px;
+    background-color: #2a3855 ;
+ 
 }
 
-.counter-hero i{
+.counter-hero i {
 
     font-size: 50px;
     color: var(--elixir-warning);
 
 }
 
-.counter-hero h2{
+.counter-hero h2 {
 
     font-size: 60px;
     color: var(--elixir-warning);
@@ -232,14 +237,38 @@ li {
     font-size: 18px;
     margin-top: 10px;
 }
-    .lead {
-        font-size: 1.333rem;
-        color: var(--elixir-body-color);
-        font-weight: 300;
-    }
+
+.lead {
+    font-size: 1.333rem;
+    color: var(--elixir-body-color);
+    font-weight: 300;
+}
 
 .clients-logo {
 
     background-color: #f2f2f2;
+
+}
+
+.brand-icon {
+    background: #2a3855;
+    text-align: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: .188rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+}
+footer {
+
+    background-color: var(--elixir-primary);
 
 }
