@@ -17,6 +17,7 @@
 .e-body {
     color: var(--elixir-body-color);
 }
+
 .e-bg-primary {
     background-color: var(--elixir-primary);
 }
@@ -210,8 +211,8 @@ li {
 
     background-image: url(../images/background-15.jpg);
     padding: 120px;
-    background-color: #2a3855 ;
- 
+    background-color: #2a3855;
+
 }
 
 .counter-hero i {
@@ -274,8 +275,35 @@ li {
     width: 2.5rem;
     color: #fff;
 }
+
 footer {
 
     background-color: var(--elixir-primary);
 
+}
+
+
+/* services pages */
+
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: "transparent";
+}
+
+.breadcrumb-item.active {
+    font-weight: 400;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
 }
