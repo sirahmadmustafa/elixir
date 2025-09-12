@@ -301,9 +301,19 @@ footer {
     font-weight: 400;
 }
 
-.breadcrumb-item.active {
-    color: #fff;
-}
+
+
 .breadcrumb-item+.breadcrumb-item {
     padding-left: .5rem;
+}
+
+.serves-page {
+    background-image: url(../images/background-15.jpg);
+    padding: 120px;
+    background-color: #2a3855;
+    opacity: 0.9;
+}
+
+.serves-page  {
+    font-size: 100px;
 }
